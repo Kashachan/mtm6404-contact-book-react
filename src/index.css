@@ -97,7 +97,7 @@ dd {
   transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
-/* Blue primary button */
+/* Primary button */
 .btn--primary {
   background-color: #007bff;
   border: 1px solid #007bff;
@@ -108,7 +108,7 @@ dd {
   border-color: #0062cc;
 }
 
-/* Secondary (Cancel) */
+/* Cancel button */
 .btn--soft {
   background: none;
   border: none;
@@ -119,7 +119,7 @@ dd {
   text-decoration: underline;
 }
 
-/* Delete Button - outlined red */
+/* Delete button */
 .btn--danger {
   background: none;
   border: 1px solid #dc3545;
@@ -145,24 +145,24 @@ dd {
   display: flex;
   justify-content: center;
   margin-top: 1.5rem;
-  grid-column: 1 / -1; /* span all columns in .form grid */
+  grid-column: 1 / -1; 
 }
 
 /* --- Forms --- */
 .form {
   display: grid;
-  gap: 1.2rem; /* extra spacing between rows */
+  gap: 1.2rem; 
   max-width: 640px;
 }
 
 .form__row:first-of-type {
-  margin-bottom: 1.5rem; /* vertical space between Name row and Email row */
+  margin-bottom: 1.5rem; 
 }
 
 .form__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem; /* space between columns */
+  gap: 1.5rem; 
 }
 
 .form__row.three-cols {
